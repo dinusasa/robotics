@@ -11,7 +11,7 @@ h1 {
     text-align: center;
     color: #000000;
     /* White text color */
-    font-size: 35pt;
+    font-size: 50pt;
     font-weight: lighter;
     background: linear-gradient(rgba(0, 128, 0, 0.349), rgba(0, 255, 170, 0.37), rgba(50, 205, 166, 0.459))no-repeat center center fixed;
     background-size: cover;
@@ -20,7 +20,7 @@ h1 {
 }
 p{
     background-color: #ffffffa4;
-    background-size: cover;
+    font-size: 16pt;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
