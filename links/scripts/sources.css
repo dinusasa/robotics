@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "neon-tubes-2-regular";
+  src: url("https://assets.codepen.io/2585/NeonTubes2.otf") format("woff"),
+    url("https://assets.codepen.io/2585/NeonTubes2.otf") format("opentype"),
+    url("https://assets.codepen.io/2585/NeonTubes2.otf") format("truetype");
+}
+
+* {
+  margin: 5px;
+  margin-bottom: 50px;
+  padding: 4px;
+  box-sizing: border-box;
+  font-family: "tilt neon";
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-size: 20pt;
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(
+      135deg,
+      #0e0846,
+      #170950,
+      #07184b,
+      #0a1f58,
+      #2c228b,
+      #314da8,
+      #001d3d,
+      #0063a7,
+      #00a8e8,
+      #001f54,
+      #0072bc,
+      #00bfff,
+      #005d6e,
+      #00adb5,
+      #52979e
+    )
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+a {
+  color: white;
+  text-shadow: 0 0 5px #4682b4;
+}
+a:hover {
+  box-shadow: 0 0 6px#4682B4;
+  text-shadow: 0 0 2px green;
+  transition: 1s;
+  background-color: rgba(0, 0, 0, 0.075);
+}
